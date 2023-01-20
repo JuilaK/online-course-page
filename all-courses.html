@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our online courses</title>
+    <meta name="description">
+    <meta name="keywords">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20230120175428">
+    <link rel="stylesheet" href="/css/styles.min.css?_v=20230120175428">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__nav">
+            <button class="header__burger" type="button"> <span>Открыть меню</span></button>
+            <ul class="header__burger-menu"> 
+              <li><a class="header__burger-link" href="#">About us</a></li>
+              <li><a class="header__burger-link active" href="/all-courses.html">Courses</a></li>
+              <li><a class="header__burger-link" href="/events.html">Events</a></li>
+              <li><a class="header__burger-link" href="#">Blog</a></li>
+              <li><a class="header__burger-link" href="#">Contacts</a></li>
+            </ul><a class="header__logo" href="/"> <img src="images/logo.svg" alt="Createx logo"/></a>
+            <ul class="header__menu">
+              <li><a class="header__menu-link" href="#">About us</a></li>
+              <li><a class="header__menu-link active" href="/all-courses.html">Courses</a></li>
+              <li><a class="header__menu-link" href="/events.html">Events</a></li>
+              <li><a class="header__menu-link" href="#">Blog</a></li>
+              <li><a class="header__menu-link" href="#">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="header__btns">
+            <button class="btn btn-primary btn-lg" type="button"><span class="btn-title">Get consultation</span>
+            </button>
+            <button class="btn btn-text btn-lg" type="button"><span class="icon-profile"></span><span class="btn-title">Log in / Register</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="our-courses container">
+              <div class="block-title block-title_center">
+                <h4 class="block-title__subtitle">Enjoy your studying!</h4>
+                <h2 class="block-title__title">Our online courses</h2>
+              </div>
+        <div class="our-courses__nav">
+                <div class="tabs">
+                  <nav class="tabs__nav">
+                    <button class="btn btn-text tabs__nav-btn" type="button" data-tab="#tab_0">
+                      <div class="tabs__nav-btn-title">All</div>
+                      <div class="tabs__nav-btn-count">17</div>
+                    </button>
+                    <button class="btn btn-text tabs__nav-btn" type="button" data-tab="#tab_1">
+                      <div class="tabs__nav-btn-title">Marketing</div>
+                      <div class="tabs__nav-btn-count">4</div>
+                    </button>
+                    <button class="btn btn-text tabs__nav-btn" type="button" data-tab="#tab_2">
+                      <div class="tabs__nav-btn-title">Management</div>
+                      <div class="tabs__nav-btn-count">3</div>
+                    </button>
+                    <button class="btn btn-text tabs__nav-btn" type="button" data-tab="#tab_3">
+                      <div class="tabs__nav-btn-title">HR &amp; Recruting</div>
+                      <div class="tabs__nav-btn-count">5</div>
+                    </button>
+                    <button class="btn btn-text tabs__nav-btn" type="button" data-tab="#tab_4">
+                      <div class="tabs__nav-btn-title">Design</div>
+                      <div class="tabs__nav-btn-count">2</div>
+                    </button>
+                    <button class="btn btn-text tabs__nav-btn" type="button" data-tab="#tab_5">
+                      <div class="tabs__nav-btn-title">Development</div>
+                      <div class="tabs__nav-btn-count">3</div>
+                    </button>
+                  </nav>
+                        <div class="dropdown tabs__dropdown">
+                          <button class="btn dropdown__toggle" type="button">
+                            <div class="dropdown__toggle-wrapper">
+                              <div class="dropdown__option-title">All</div>
+                              <div class="dropdown__option-count">17</div>
+                            </div>
+                            <div class="icon-chevron-down"></div>
+                          </button>
+                          <ul class="dropdown__menu">  
+                            <li>
+                              <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_0">
+                                <div class="dropdown__option-title">All</div>
+                                <div class="dropdown__option-count">17</div>
+                              </button>
+                            </li>
+                            <li>
+                              <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_1">
+                                <div class="dropdown__option-title">Marketing</div>
+                                <div class="dropdown__option-count">4</div>
+                              </button>
+                            </li>
+                            <li>
+                              <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_2">
+                                <div class="dropdown__option-title">Management</div>
+                                <div class="dropdown__option-count">3</div>
+                              </button>
+                            </li>
+                            <li>
+                              <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_3">
+                                <div class="dropdown__option-title">HR &amp; Recruting</div>
+                                <div class="dropdown__option-count">5</div>
+                              </button>
+                            </li>
+                            <li>
+                              <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_4">
+                                <div class="dropdown__option-title">Design</div>
+                                <div class="dropdown__option-count">2</div>
+                              </button>
+                            </li>
+                            <li>
+                              <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_5">
+                                <div class="dropdown__option-title">Development</div>
+                                <div class="dropdown__option-count">3</div>
+                              </button>
+                            </li>
+                          </ul>
+                        </div>
+                </div>
+          <form class="our-courses__form" action="#" method="post">
+                  <div class="input__container">
+                    <input class="input__with-icon" type="text" placeholder="Search course...">
+                          <button class="btn btn-text" type="button"><span class="icon-search"></span>
+                          </button>
+                  </div>
+          </form>
+        </div>
+        <div class="tabs-content"> 
+          <div class="tabs__content-item" id="tab_0">
+                  <div class="course-list our-courses__list grid"> 
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-1.webp"type="image/webp"><img src="images/avatar-1.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_green">Marketing</div>
+                              <h3 class="course-card__title">The Ultimate Google Ads Training Course</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$100</div>
+                                <div class="course-card__author">by Jerome Bell</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-2.webp"type="image/webp"><img src="images/avatar-2.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_blue">Managment</div>
+                              <h3 class="course-card__title">Product Management Fundamentals</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$480</div>
+                                <div class="course-card__author">by Marvin McKinney</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-3.webp"type="image/webp"><img src="images/avatar-3.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_yellow">HR &amp; Recruting</div>
+                              <h3 class="course-card__title">HR  Management and Analytics</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$200</div>
+                                <div class="course-card__author">by Leslie Alexander Li</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-4.webp"type="image/webp"><img src="images/avatar-4.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_green">Marketing</div>
+                              <h3 class="course-card__title">Brand Management &amp; PR Communications</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$530</div>
+                                <div class="course-card__author">by Kristin Watson</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-1.webp"type="image/webp"><img src="images/avatar-1.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_blue">Managment</div>
+                              <h3 class="course-card__title">Business Development Management</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$400</div>
+                                <div class="course-card__author">by Dianne Russel</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-2.webp"type="image/webp"><img src="images/avatar-2.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_pink">Design</div>
+                              <h3 class="course-card__title">Graphic Design Basic</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$500</div>
+                                <div class="course-card__author">by Guy Hawkins</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-3.webp"type="image/webp"><img src="images/avatar-3.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_yellow">HR &amp; Recruting</div>
+                              <h3 class="course-card__title">HR  Management and Analytics</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$200</div>
+                                <div class="course-card__author">by Leslie Alexander Li</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-4.webp"type="image/webp"><img src="images/avatar-4.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_green">Marketing</div>
+                              <h3 class="course-card__title">Brand Management &amp; PR Communications</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$530</div>
+                                <div class="course-card__author">by Kristin Watson</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-1.webp"type="image/webp"><img src="images/avatar-1.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_blue">Managment</div>
+                              <h3 class="course-card__title">Business Development Management</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$400</div>
+                                <div class="course-card__author">by Dianne Russel</div>
+                              </div>
+                            </div>
+                          </div>
+                  </div>
+            <div class="our-courses__btn-load">
+                    <button class="btn btn-text" type="button"><span class="icon-arrows-convert"></span><span class="btn-title">Load more</span>
+                    </button>
+            </div>
+          </div>
+          <div class="tabs__content-item" id="tab_1">
+                  <div class="course-list our-courses__list grid"> 
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-1.webp"type="image/webp"><img src="images/avatar-1.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_green">Marketing</div>
+                              <h3 class="course-card__title">The Ultimate Google Ads Training Course</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$100</div>
+                                <div class="course-card__author">by Jerome Bell</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-4.webp"type="image/webp"><img src="images/avatar-4.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_green">Marketing</div>
+                              <h3 class="course-card__title">Brand Management &amp; PR Communications</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$530</div>
+                                <div class="course-card__author">by Kristin Watson</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-4.webp"type="image/webp"><img src="images/avatar-4.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_green">Marketing</div>
+                              <h3 class="course-card__title">Brand Management &amp; PR Communications</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$530</div>
+                                <div class="course-card__author">by Kristin Watson</div>
+                              </div>
+                            </div>
+                          </div>
+                  </div>
+          </div>
+          <div class="tabs__content-item" id="tab_2">
+                  <div class="course-list our-courses__list grid"> 
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-2.webp"type="image/webp"><img src="images/avatar-2.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_blue">Managment</div>
+                              <h3 class="course-card__title">Product Management Fundamentals</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$480</div>
+                                <div class="course-card__author">by Marvin McKinney</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-1.webp"type="image/webp"><img src="images/avatar-1.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_blue">Managment</div>
+                              <h3 class="course-card__title">Business Development Management</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$400</div>
+                                <div class="course-card__author">by Dianne Russel</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-1.webp"type="image/webp"><img src="images/avatar-1.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_blue">Managment</div>
+                              <h3 class="course-card__title">Business Development Management</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$400</div>
+                                <div class="course-card__author">by Dianne Russel</div>
+                              </div>
+                            </div>
+                          </div>
+                  </div>
+          </div>
+          <div class="tabs__content-item" id="tab_3">
+                  <div class="course-list our-courses__list grid"> 
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-3.webp"type="image/webp"><img src="images/avatar-3.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_yellow">HR &amp; Recruting</div>
+                              <h3 class="course-card__title">HR  Management and Analytics</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$200</div>
+                                <div class="course-card__author">by Leslie Alexander Li</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-3.webp"type="image/webp"><img src="images/avatar-3.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_yellow">HR &amp; Recruting</div>
+                              <h3 class="course-card__title">HR  Management and Analytics</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$200</div>
+                                <div class="course-card__author">by Leslie Alexander Li</div>
+                              </div>
+                            </div>
+                          </div>
+                  </div>
+          </div>
+          <div class="tabs__content-item" id="tab_4">
+                  <div class="course-list our-courses__list grid"> 
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-2.webp"type="image/webp"><img src="images/avatar-2.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_pink">Design</div>
+                              <h3 class="course-card__title">Graphic Design Basic</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$500</div>
+                                <div class="course-card__author">by Guy Hawkins</div>
+                              </div>
+                            </div>
+                          </div>
+                  </div>
+          </div>
+          <div class="tabs__content-item" id="tab_5">
+                  <div class="course-list our-courses__list grid"> 
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-2.webp"type="image/webp"><img src="images/avatar-2.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_blue">Development</div>
+                              <h3 class="course-card__title">Graphic Design Basic</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$500</div>
+                                <div class="course-card__author">by Guy Hawkins</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-1.webp"type="image/webp"><img src="images/avatar-1.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_blue">Development</div>
+                              <h3 class="course-card__title">Graphic Design Basic</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$500</div>
+                                <div class="course-card__author">by Guy Hawkins</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="course-card">
+                            <div class="course-card__avatar"> <picture><source srcset="images/avatar-3.webp"type="image/webp"><img src="images/avatar-3.png"></picture></div>
+                            <div class="course-card__info"> 
+                              <div class="course-card__badge course-card__badge_blue">Development</div>
+                              <h3 class="course-card__title">Graphic Design Basic</h3>
+                              <div class="course-card__price-wrapper"> 
+                                <div class="course-card__price">$500</div>
+                                <div class="course-card__author">by Guy Hawkins</div>
+                              </div>
+                            </div>
+                          </div>
+                  </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews"> 
+        <div class="container"> 
+                <div class="block-title block-title_center">
+                  <h4 class="block-title__subtitle">Testimonials</h4>
+                  <h2 class="block-title__title">What our students say</h2>
+                </div>
+                <div class="swiper reviews__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"> 
+                            <div class="review-card">
+                              <div class="icon-braces"></div>
+                              <div class="review-card__content">
+                                <div class="review-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</div>
+                                <div class="review-card__info">
+                                  <div class="review-card__img"><picture><source srcset="images/avatar-4.webp"type="image/webp"><img src="images/avatar-4.png" alt="Eleanor Pena"></picture></div>
+                                  <div class="review-card__meta">
+                                    <div class="review-card__author">Eleanor Pena</div>
+                                    <div class="review-card__position">Position, Course</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                            <div class="review-card">
+                              <div class="icon-braces"></div>
+                              <div class="review-card__content">
+                                <div class="review-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</div>
+                                <div class="review-card__info">
+                                  <div class="review-card__img"><picture><source srcset="images/avatar-4.webp"type="image/webp"><img src="images/avatar-4.png" alt="Eleanor Pena"></picture></div>
+                                  <div class="review-card__meta">
+                                    <div class="review-card__author">Eleanor Pena</div>
+                                    <div class="review-card__position">Position, Course</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-pagination"> </div>
+                </div>
+        </div>
+      </section>
+      <section class="certificate container"> 
+        <div class="certificate__info">
+                <div class="block-title">
+                  <h4 class="block-title__subtitle">Createx Certificate</h4>
+                  <h2 class="block-title__title">Your expertise will be confirmed</h2>
+                </div>
+          <p class="certificate__description">We are accredited by international professional organizations and institutes:</p>
+          <div class="certificate__logos"> <picture><source srcset="images/del-mar-strategy-logo.webp"type="image/webp"><img src="images/del-mar-strategy-logo.png" alt="Del Mar strategy logo"></picture><img src="images/sentinal-consulting-logo.png" alt="Sentinal consulting logo"><img src="images/national-logo.png" alt="National logo"></div>
+        </div>
+        <div class="certificate__img"><picture><source srcset="images/certificate.webp"type="image/webp"><img src="images/certificate.jpg" alt="Certificate image"></picture></div>
+      </section>
+      <section class="subscribe"> 
+        <div class="container">
+          <div class="subscribe__header">
+                  <div class="block-title block-title_center">
+                    <h4 class="block-title__subtitle">Don’t miss anything</h4>
+                    <h2 class="block-title__title">Subscribe to the Createx School announcements</h2>
+                  </div>
+          </div>
+          <form class="subscribe__form" action="#" method="post">
+            <input class="input-lg" type="text" placeholder="Your working email">
+                  <button class="btn btn-primary btn-lg" type="button"><span class="btn-title">Subscribe</span>
+                  </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__top container">
+        <div class="footer__logo-wrapper"><a class="footer__logo" href="/"> <img src="images/logo-light.svg" alt="Createx logo"></a>
+          <p class="footer__discription">
+            Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts. 
+            We provide relevant approaches to online learning, internships and employment in the largest companies in the country.  
+          </p>
+        </div>
+        <div> 
+          <h5 class="footer__list-header">Site map</h5>
+          <ul class="footer__list">
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">About Us</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Courses</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Events</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Blog</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <div> 
+          <h5 class="footer__list-header">Courses</h5>
+          <ul class="footer__list">
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Marketing</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Management</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">HR &amp; Recruting</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Design</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Development</a></li>
+          </ul>
+        </div>
+        <div class="footer__list-contact"> 
+          <h5 class="footer__list-header">Contact us</h5>
+          <ul class="footer__list">
+            <li class="footer__list-item icon-iphone"><a class="footer__list-link" href="#">(405) 555-0128    </a></li>
+            <li class="footer__list-item icon-mail"><a class="footer__list-link" href="#">hello@createx.com</a></li>
+          </ul>
+        </div>
+        <div class="footer__signup">
+          <h5 class="footer__list-header">Sign up to our newsletter</h5>
+          <form class="footer__form" action="#" method="post">
+            <input class="input-sm" type="text" placeholder="Email address">
+                <button class="btn btn-text btn-sm" type="button"><span class="icon-arrow-right"></span>
+                </button>
+          </form>
+          <p class="footer__form-description">*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.                                                   </p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="footer__bottom-wrapper"> 
+            <div class="footer__copyright"><span>© All rights reserved. </span>
+              <div class="footer__copyright-by"><span>Made with</span>
+                <div class="icon-heart"></div><span>by Createx Studio </span>
+              </div>
+            </div><a class="footer__back" href="#">Go to top  </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js?_v=20230120175428"> </script>
+    <script src="/scripts/script.min.js?_v=20230120175428">  </script>
+  </body>
+</html>

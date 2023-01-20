@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lectures, workshops &amp; master-classes</title>
+    <meta name="description">
+    <meta name="keywords">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20230120175428">
+    <link rel="stylesheet" href="/css/styles.min.css?_v=20230120175428">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__nav">
+            <button class="header__burger" type="button"> <span>Открыть меню</span></button>
+            <ul class="header__burger-menu"> 
+              <li><a class="header__burger-link" href="#">About us</a></li>
+              <li><a class="header__burger-link" href="/all-courses.html">Courses</a></li>
+              <li><a class="header__burger-link active" href="/events.html">Events</a></li>
+              <li><a class="header__burger-link" href="#">Blog</a></li>
+              <li><a class="header__burger-link" href="#">Contacts</a></li>
+            </ul><a class="header__logo" href="/"> <img src="images/logo.svg" alt="Createx logo"/></a>
+            <ul class="header__menu">
+              <li><a class="header__menu-link" href="#">About us</a></li>
+              <li><a class="header__menu-link" href="/all-courses.html">Courses</a></li>
+              <li><a class="header__menu-link active" href="/events.html">Events</a></li>
+              <li><a class="header__menu-link" href="#">Blog</a></li>
+              <li><a class="header__menu-link" href="#">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="header__btns">
+            <button class="btn btn-primary btn-lg" type="button"><span class="btn-title">Get consultation</span>
+            </button>
+            <button class="btn btn-text btn-lg" type="button"><span class="icon-profile"></span><span class="btn-title">Log in / Register</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="our-events container">
+              <div class="block-title block-title_center">
+                <h4 class="block-title__subtitle">Our events</h4>
+                <h2 class="block-title__title">Lectures, workshops &amp; master-classes</h2>
+              </div>
+        <div class="our-events__controls">
+          <div class="our-events__filters"> 
+                  <div class="dropdown our-events__filter-category"><span class="dropdown__label">Event category</span>
+                    <button class="btn dropdown__toggle" type="button">
+                      <div class="dropdown__toggle-wrapper">
+                        <div class="dropdown__option-title">all themes</div>
+                      </div>
+                      <div class="icon-chevron-down"></div>
+                    </button>
+                    <ul class="dropdown__menu">  
+                      <li>
+                        <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_0">
+                          <div class="dropdown__option-title">all themes</div>
+                        </button>
+                      </li>
+                      <li>
+                        <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_1">
+                          <div class="dropdown__option-title">theme 1</div>
+                        </button>
+                      </li>
+                      <li>
+                        <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_2">
+                          <div class="dropdown__option-title">theme 2</div>
+                        </button>
+                      </li>
+                      <li>
+                        <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_3">
+                          <div class="dropdown__option-title">theme 3</div>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown our-events__filter-sort"><span class="dropdown__label">Sort by</span>
+                    <button class="btn dropdown__toggle" type="button">
+                      <div class="dropdown__toggle-wrapper">
+                        <div class="dropdown__option-title">newest</div>
+                      </div>
+                      <div class="icon-chevron-down"></div>
+                    </button>
+                    <ul class="dropdown__menu">  
+                      <li>
+                        <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_0">
+                          <div class="dropdown__option-title">newest</div>
+                        </button>
+                      </li>
+                      <li>
+                        <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_1">
+                          <div class="dropdown__option-title">oldest</div>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown our-events__filter-count"><span class="dropdown__label">Show</span>
+                    <button class="btn dropdown__toggle" type="button">
+                      <div class="dropdown__toggle-wrapper">
+                        <div class="dropdown__option-title">8</div>
+                      </div>
+                      <div class="icon-chevron-down"></div>
+                    </button>
+                    <ul class="dropdown__menu">  
+                      <li>
+                        <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_0">
+                          <div class="dropdown__option-title">8</div>
+                        </button>
+                      </li>
+                      <li>
+                        <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_1">
+                          <div class="dropdown__option-title">9</div>
+                        </button>
+                      </li>
+                      <li>
+                        <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_2">
+                          <div class="dropdown__option-title">10</div>
+                        </button>
+                      </li>
+                      <li>
+                        <button class="btn btn-text dropdown__option" type="button" data-tab="#tab_3">
+                          <div class="dropdown__option-title">11</div>
+                        </button>
+                      </li>
+                    </ul><span class="dropdown__sublabel">events per page</span>
+                  </div>
+                  <div class="input__container our-events__filter-input">
+                    <input class="input__with-icon" type="text" placeholder="Search events...">
+                          <button class="btn btn-text" type="button"><span class="icon-search"></span>
+                          </button>
+                  </div>
+          </div>
+                <button class="btn btn-secondary-outline our-events__filters-menu" type="button"><span class="btn-title">Filters</span><span class="icon-filter-1"></span>
+                </button>
+          <div class="our-events__switch">
+                  <button class="btn btn-text active" type="button"><span class="icon-list"></span>
+                  </button>
+                  <button class="btn btn-text" type="button"><span class="icon-grid"></span>
+                  </button>
+          </div>
+        </div>
+              <div class="event-list our-events__list"> 
+                      <div class="event-card">
+                        <div class="event-card__info">
+                          <div class="event-card__date">
+                            <div class="event-card__day">05<span>August</span></div>
+                            <div class="event-card__date-wrapper">
+                              <div class="event-card__month">August</div>
+                              <div class="event-card__time">11:00 - 14:00</div>
+                            </div>
+                          </div>
+                          <div class="event-card__name">  <a class="event-card__title" href="#">Formation of the organizational structure of the company in the face of uncertainty.</a>
+                            <div class="event-card__subtitle">Onine master-class</div>
+                          </div>
+                        </div><a class="btn btn-primary-outline" href="#"><span class="btn-title">View more</span></a>
+                      </div>
+                      <div class="event-card">
+                        <div class="event-card__info">
+                          <div class="event-card__date">
+                            <div class="event-card__day">24<span>July</span></div>
+                            <div class="event-card__date-wrapper">
+                              <div class="event-card__month">July</div>
+                              <div class="event-card__time">11:00 - 12:30</div>
+                            </div>
+                          </div>
+                          <div class="event-card__name">  <a class="event-card__title" href="#">Building a customer service department. Best Practices.</a>
+                            <div class="event-card__subtitle">Onine lecture</div>
+                          </div>
+                        </div><a class="btn btn-primary-outline" href="#"><span class="btn-title">View more</span></a>
+                      </div>
+                      <div class="event-card">
+                        <div class="event-card__info">
+                          <div class="event-card__date">
+                            <div class="event-card__day">16<span>July</span></div>
+                            <div class="event-card__date-wrapper">
+                              <div class="event-card__month">July</div>
+                              <div class="event-card__time">10:00 - 13:00</div>
+                            </div>
+                          </div>
+                          <div class="event-card__name">  <a class="event-card__title" href="#">How to apply methods of speculative design in practice. Worldbuilding prototyping.</a>
+                            <div class="event-card__subtitle">Onine workshop</div>
+                          </div>
+                        </div><a class="btn btn-primary-outline" href="#"><span class="btn-title">View more</span></a>
+                      </div>
+                      <div class="event-card">
+                        <div class="event-card__info">
+                          <div class="event-card__date">
+                            <div class="event-card__day">10<span>July</span></div>
+                            <div class="event-card__date-wrapper">
+                              <div class="event-card__month">July</div>
+                              <div class="event-card__time">9:00 – 14:00</div>
+                            </div>
+                          </div>
+                          <div class="event-card__name">  <a class="event-card__title" href="#">Find and evaluate: search and assessment tools for candidates.</a>
+                            <div class="event-card__subtitle">Onine workshop</div>
+                          </div>
+                        </div><a class="btn btn-primary-outline" href="#"><span class="btn-title">View more</span></a>
+                      </div>
+                      <div class="event-card">
+                        <div class="event-card__info">
+                          <div class="event-card__date">
+                            <div class="event-card__day">27<span>June</span></div>
+                            <div class="event-card__date-wrapper">
+                              <div class="event-card__month">June</div>
+                              <div class="event-card__time">15:00 – 19:00</div>
+                            </div>
+                          </div>
+                          <div class="event-card__name">  <a class="event-card__title" href="#">Connection to Microsoft Excel and Google Sheets, Data Visualization in Power BI.</a>
+                            <div class="event-card__subtitle">Onine master-class</div>
+                          </div>
+                        </div><a class="btn btn-primary-outline" href="#"><span class="btn-title">View more</span></a>
+                      </div>
+                      <div class="event-card">
+                        <div class="event-card__info">
+                          <div class="event-card__date">
+                            <div class="event-card__day">15<span>June</span></div>
+                            <div class="event-card__date-wrapper">
+                              <div class="event-card__month">June</div>
+                              <div class="event-card__time">10:00 – 12:00</div>
+                            </div>
+                          </div>
+                          <div class="event-card__name">  <a class="event-card__title" href="#">Marketing or growth hacking: main differences and what business needs.</a>
+                            <div class="event-card__subtitle">Onine lecture</div>
+                          </div>
+                        </div><a class="btn btn-primary-outline" href="#"><span class="btn-title">View more</span></a>
+                      </div>
+                      <div class="event-card">
+                        <div class="event-card__info">
+                          <div class="event-card__date">
+                            <div class="event-card__day">02<span>June</span></div>
+                            <div class="event-card__date-wrapper">
+                              <div class="event-card__month">June</div>
+                              <div class="event-card__time">11:00 – 13:00</div>
+                            </div>
+                          </div>
+                          <div class="event-card__name">  <a class="event-card__title" href="#">How to brief a client and present your design to approve it from the first show.</a>
+                            <div class="event-card__subtitle">Onine lecture</div>
+                          </div>
+                        </div><a class="btn btn-primary-outline" href="#"><span class="btn-title">View more</span></a>
+                      </div>
+                      <div class="event-card">
+                        <div class="event-card__info">
+                          <div class="event-card__date">
+                            <div class="event-card__day">29<span>May</span></div>
+                            <div class="event-card__date-wrapper">
+                              <div class="event-card__month">May</div>
+                              <div class="event-card__time">11:00 – 12:00</div>
+                            </div>
+                          </div>
+                          <div class="event-card__name">  <a class="event-card__title" href="#">Who is a project manager and do I want to be PM?</a>
+                            <div class="event-card__subtitle">Onine lecture</div>
+                          </div>
+                        </div><a class="btn btn-primary-outline" href="#"><span class="btn-title">View more</span></a>
+                      </div>
+                      <div class="event-card">
+                        <div class="event-card__info">
+                          <div class="event-card__date">
+                            <div class="event-card__day">18<span>May</span></div>
+                            <div class="event-card__date-wrapper">
+                              <div class="event-card__month">May</div>
+                              <div class="event-card__time">10:00 – 12:00</div>
+                            </div>
+                          </div>
+                          <div class="event-card__name">  <a class="event-card__title" href="#">The company's business page as an additional tool to support the announcement of vacancies.</a>
+                            <div class="event-card__subtitle">Onine lecture</div>
+                          </div>
+                        </div><a class="btn btn-primary-outline" href="#"><span class="btn-title">View more</span></a>
+                      </div>
+              </div>
+              <nav class="pagination our-events__pagination"> <a class="btn btn-text pagination__item" href="#"><span class="btn-title">1</span></a><a class="btn btn-text pagination__item" href="#"><span class="btn-title">2</span></a><a class="btn btn-text pagination__item" href="#"><span class="btn-title">3</span></a><a class="btn btn-text pagination__item" href="#"><span class="btn-title">4</span></a><a class="btn btn-text pagination__item" href="#"><span class="icon-arrow-right"></span></a>
+              </nav>
+      </section>
+      <section class="subscribe"> 
+        <div class="container">
+          <div class="subscribe__header">
+                  <div class="block-title block-title_center">
+                    <h4 class="block-title__subtitle">Don’t miss anything</h4>
+                    <h2 class="block-title__title">Subscribe to the Createx School announcements</h2>
+                  </div>
+          </div>
+          <form class="subscribe__form" action="#" method="post">
+            <input class="input-lg" type="text" placeholder="Your working email">
+                  <button class="btn btn-primary btn-lg" type="button"><span class="btn-title">Subscribe</span>
+                  </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__top container">
+        <div class="footer__logo-wrapper"><a class="footer__logo" href="/"> <img src="images/logo-light.svg" alt="Createx logo"></a>
+          <p class="footer__discription">
+            Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts. 
+            We provide relevant approaches to online learning, internships and employment in the largest companies in the country.  
+          </p>
+        </div>
+        <div> 
+          <h5 class="footer__list-header">Site map</h5>
+          <ul class="footer__list">
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">About Us</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Courses</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Events</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Blog</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <div> 
+          <h5 class="footer__list-header">Courses</h5>
+          <ul class="footer__list">
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Marketing</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Management</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">HR &amp; Recruting</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Design</a></li>
+            <li class="footer__list-item"> <a class="footer__list-link" href="#">Development</a></li>
+          </ul>
+        </div>
+        <div class="footer__list-contact"> 
+          <h5 class="footer__list-header">Contact us</h5>
+          <ul class="footer__list">
+            <li class="footer__list-item icon-iphone"><a class="footer__list-link" href="#">(405) 555-0128    </a></li>
+            <li class="footer__list-item icon-mail"><a class="footer__list-link" href="#">hello@createx.com</a></li>
+          </ul>
+        </div>
+        <div class="footer__signup">
+          <h5 class="footer__list-header">Sign up to our newsletter</h5>
+          <form class="footer__form" action="#" method="post">
+            <input class="input-sm" type="text" placeholder="Email address">
+                <button class="btn btn-text btn-sm" type="button"><span class="icon-arrow-right"></span>
+                </button>
+          </form>
+          <p class="footer__form-description">*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.                                                   </p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="footer__bottom-wrapper"> 
+            <div class="footer__copyright"><span>© All rights reserved. </span>
+              <div class="footer__copyright-by"><span>Made with</span>
+                <div class="icon-heart"></div><span>by Createx Studio </span>
+              </div>
+            </div><a class="footer__back" href="#">Go to top  </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js?_v=20230120175428"> </script>
+    <script src="/scripts/script.min.js?_v=20230120175428">  </script>
+  </body>
+</html>
